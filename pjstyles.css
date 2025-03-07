@@ -1,0 +1,27 @@
+button{
+    border:none;
+    position: relative;
+    background-color: #000;
+    color: #f0f0f0;
+    padding:1em 2em;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button::after{
+    border-radius: 1000px;
+    content: '';
+    width:102%;
+    height:107%;
+    position: absolute;
+    background-image: linear-gradient(to bottom right , #8A3916, #FFA44A);
+    z-index: -1;
+
+}
+
+button:hover{
+    /* background-color: #f0f0f0; */
+    z-index: 0;
+}

@@ -8,7 +8,7 @@ const camera = new THREE.PerspectiveCamera(
     0.1,
     1000
 );
-camera.position.z = 200;
+camera.position.z = 500;
 
 const scene = new THREE.Scene();
 let bee;
